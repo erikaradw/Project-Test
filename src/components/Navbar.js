@@ -81,22 +81,17 @@ export function Navbar() {
               </button>
               <div className="absolute z-50 hidden text-start group-hover:block">
                 <div className="absolute  z-50 h-screen shadow-lg">
-                  <div className="absolute z-50 flex flex-col gap-y-2 rounded-md bg-primary px-3 py-5 text-white shadow-lg">
-                    
-                  </div>
+                  
                 </div>
               </div>
             </div>
             <div className="group relative z-50 text-sm">
               <button className=" font-poppins text-xl text-white hover:font-bold">
-                <span>Carees</span>
+                <span>Careers</span>
               </button>
               <div className="absolute z-50 hidden text-start group-hover:block">
                 <div className="absolute  z-50 h-screen shadow-lg">
-                  <div className="absolute z-50 flex flex-col gap-y-2 rounded-md bg-primary px-3 py-5 text-white shadow-lg">
-                    
-                      
-                  </div>
+                  
                 </div>
               </div>
             </div>
@@ -106,9 +101,7 @@ export function Navbar() {
               </button>
               <div className="absolute z-50 hidden text-start group-hover:block">
                 <div className="absolute  z-50 h-screen shadow-lg">
-                  <div className="absolute z-50 flex flex-col gap-y-2 rounded-md bg-primary px-3 py-5 text-white shadow-lg">
-                    
-                  </div>
+                  
                 </div>
               </div>
             </div>
