@@ -164,55 +164,14 @@ export function Navbar() {
           <button className=" pb-5 pl-20 font-poppins text-xl text-white xs:pl-28 sm:pl-36 md:pl-44">
             <span>About</span>
           </button>
-          <div className="z-10 hidden w-screen group-hover:block">
-            <div className="relative z-50 h-full w-full bg-primary shadow-lg">
-              <div className="relative z-50 flex flex-col gap-y-2 py-5 pl-20 xs:pl-28 sm:pl-36 md:pl-44">
-                <Link href="/design">
-                  <p className="hover:font-bold">Design</p>
-                </Link>
-                <Link href="/description">
-                  <p className="hover:font-bold">Description</p>
-                </Link>
-                <Link href="/engineering">
-                  <p className="hover:font-bold">Engineering</p>
-                </Link>
-                <Link href="/safety">
-                  <p className="hover:font-bold">Safety</p>
-                </Link>
-                <Link href="/contribution">
-                  <p className="hover:font-bold">Contribution</p>
-                </Link>
-                <Link href="/proposed-implementation">
-                  <p className="hover:cursor-pointer hover:font-bold">
-                    Proposed Implementation
-                  </p>
-                </Link>
-              </div>
-            </div>
+          
           </div>
         </div>
         <div className="group relative">
           <button className=" whitespace-nowrap pb-5 pl-20 font-poppins text-xl text-white xs:pl-28 sm:pl-36 md:pl-44">
             <span>Services</span>
           </button>
-          <div className="z-10 hidden w-screen group-hover:block">
-            <div className="relative z-50 h-full w-full bg-primary shadow-lg">
-              <div className="relative z-50 flex flex-col gap-y-2 py-5 pl-20 xs:pl-28 sm:pl-36 md:pl-44">
-                <Link href="/parts">
-                  <p className="hover:font-bold">Parts</p>
-                </Link>
-                <Link href="/experiment">
-                  <p className="hover:font-bold">Experiment</p>
-                </Link>
-                <Link href="/results">
-                  <p className="hover:font-bold">Results</p>
-                </Link>
-                <Link href="/notebook">
-                  <p className="hover:font-bold">Notebook</p>
-                </Link>
-              </div>
-            </div>
-          </div>
+          
         </div>
         <div className="group relative">
           <button className=" whitespace-nowrap pb-5 pl-20 font-poppins text-xl text-white xs:pl-28 sm:pl-36 md:pl-44">
@@ -221,60 +180,22 @@ export function Navbar() {
           <div className="z-10 hidden w-screen group-hover:block">
             <div className="relative z-50 h-full w-full bg-primary shadow-lg">
               <div className="relative z-50 flex flex-col gap-y-2 py-5 pl-20 xs:pl-28 sm:pl-36 md:pl-44">
-                <Link href="/model">
-                  <p className="hover:font-bold">Model</p>
-                </Link>
+                
               </div>
             </div>
           </div>
         </div>
         <div className="group relative">
           <button className="whitespace-nowrap pb-5 pl-20 text-start font-poppins text-xl text-white xs:pl-28 sm:pl-36 md:pl-44">
-            <span>Carees</span>
+            <span>Careers</span>
           </button>
-          <div className="z-10 hidden w-screen group-hover:block">
-            <div className="relative z-50 h-full w-full bg-primary shadow-lg">
-              <div className="relative z-50 flex flex-col gap-y-2 py-5 pl-20 xs:pl-28 sm:pl-36 md:pl-44">
-                <Link href="/human-practices">
-                  <p className="hover:cursor-pointer hover:font-bold">
-                    Human Practices
-                  </p>
-                </Link>
-                <Link href="/education">
-                  <p className="hover:cursor-pointer hover:font-bold">
-                    Education
-                  </p>
-                </Link>
-                <Link href="/inclusivity">
-                  <p className="hover:cursor-pointer hover:font-bold">
-                    Inclusivity
-                  </p>
-                </Link>
-              </div>
-            </div>
-          </div>
+          
         </div>
         <div className="group relative">
           <button className=" pb-5 pl-20 font-poppins text-xl text-white xs:pl-28 sm:pl-36 md:pl-44">
             <span>About</span>
           </button>
-          <div className="z-10 hidden w-screen group-hover:block">
-            <div className="relative z-50 h-full w-full bg-primary shadow-lg">
-              <div className="relative z-50 flex flex-col gap-y-2 py-5 pl-20 xs:pl-28 sm:pl-36 md:pl-44">
-                <Link href="/team">
-                  <p>Member</p>
-                </Link>
-                <Link href="/attributions">
-                  <p>Attribution</p>
-                </Link>
-                <Link href="/collaborations">
-                  <p className="hover:cursor-pointer hover:font-bold">
-                    Collaborations
-                  </p>
-                </Link>
-              </div>
-            </div>
-          </div>
+          
         </div>
       </div>
     </>
