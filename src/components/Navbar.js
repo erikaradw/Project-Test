@@ -67,32 +67,7 @@ export function Navbar() {
               <button className=" font-poppins text-xl text-white hover:font-bold">
                 <span>About</span>
               </button>
-              <div className="absolute z-50 hidden text-start group-hover:block ">
-                <div className="absolute  z-50 h-screen shadow-lg">
-                  <div className="absolute z-50 flex flex-col gap-y-2 rounded-md bg-primary px-3 py-5 text-white shadow-lg">
-                    <Link href="/design">
-                      <p className="hover:font-bold">Design</p>
-                    </Link>
-                    <Link href="/description">
-                      <p className="hover:font-bold">Description</p>
-                    </Link>
-                    <Link href="/engineering">
-                      <p className="hover:font-bold">Engineering</p>
-                    </Link>
-                    <Link href="/safety">
-                      <p className="hover:font-bold">Safety</p>
-                    </Link>
-                    <Link href="/contribution">
-                      <p className="hover:font-bold">Contribution</p>
-                    </Link>
-                    <Link href="/proposed-implementation">
-                      <p className="hover:cursor-pointer hover:font-bold">
-                        Proposed Implementation
-                      </p>
-                    </Link>
-                  </div>
-                </div>
-              </div>
+              
             </div>
             <div className="group relative z-50 text-sm">
               <button className=" font-poppins text-xl text-white hover:font-bold">
