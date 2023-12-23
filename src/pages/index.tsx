@@ -95,7 +95,9 @@ export default function Home({ ideas }: any) {
         </p>
         <div className="flex flex-row justify-between items-center gap-5">
           <p>Show per page: </p>
-          <select onChange={(e) => handlePerPageChange(Number(e.target.value))}>
+          <select onChange={(e) => handlePerPageChange(Number(e.target.value))}
+          value={perPage}
+          className="border-2 py-2 pr-16 pl-3 border-gray-300 rounded-full">
             <option value={10}>10</option>
             <option value={20}>20</option>
             <option value={50}>50</option>
