@@ -73,24 +73,7 @@ export function Navbar() {
               <button className=" font-poppins text-xl text-white hover:font-bold">
                 <span>Services</span>
               </button>
-              <div className="absolute z-50 hidden text-start group-hover:block">
-                <div className="absolute  z-50 h-screen shadow-lg">
-                  <div className="absolute z-50 flex flex-col gap-y-2 rounded-md bg-primary px-3 py-5 text-white shadow-lg">
-                    <Link href="/parts">
-                      <p className="hover:font-bold">Parts</p>
-                    </Link>
-                    <Link href="/experiment">
-                      <p className="hover:font-bold">Experiment</p>
-                    </Link>
-                    <Link href="/results">
-                      <p className="hover:font-bold">Results</p>
-                    </Link>
-                    <Link href="/notebook">
-                      <p className="hover:font-bold">Notebook</p>
-                    </Link>
-                  </div>
-                </div>
-              </div>
+              
             </div>
             <div className="group relative z-50 text-sm">
               <button className=" font-poppins text-xl text-white hover:font-bold">
@@ -99,9 +82,7 @@ export function Navbar() {
               <div className="absolute z-50 hidden text-start group-hover:block">
                 <div className="absolute  z-50 h-screen shadow-lg">
                   <div className="absolute z-50 flex flex-col gap-y-2 rounded-md bg-primary px-3 py-5 text-white shadow-lg">
-                    <Link href="/model">
-                      <p className="hover:font-bold">Model</p>
-                    </Link>
+                    
                   </div>
                 </div>
               </div>
@@ -113,21 +94,8 @@ export function Navbar() {
               <div className="absolute z-50 hidden text-start group-hover:block">
                 <div className="absolute  z-50 h-screen shadow-lg">
                   <div className="absolute z-50 flex flex-col gap-y-2 rounded-md bg-primary px-3 py-5 text-white shadow-lg">
-                    <Link href="/human-practices">
-                      <p className="hover:cursor-pointer hover:font-bold">
-                        Human Practices
-                      </p>
-                    </Link>
-                    <Link href="/education">
-                      <p className="hover:cursor-pointer hover:font-bold">
-                        Education
-                      </p>
-                    </Link>
-                    <Link href="/inclusivity">
-                      <p className="hover:cursor-pointer hover:font-bold">
-                        Inclusivity
-                      </p>
-                    </Link>
+                    
+                      
                   </div>
                 </div>
               </div>
@@ -139,17 +107,7 @@ export function Navbar() {
               <div className="absolute z-50 hidden text-start group-hover:block">
                 <div className="absolute  z-50 h-screen shadow-lg">
                   <div className="absolute z-50 flex flex-col gap-y-2 rounded-md bg-primary px-3 py-5 text-white shadow-lg">
-                    <Link href="/team">
-                      <p className="hover:font-bold">Member</p>
-                    </Link>
-                    <Link href="/attributions">
-                      <p className="hover:font-bold">Attribution</p>
-                    </Link>
-                    <Link href="/collaborations">
-                      <p className="hover:cursor-pointer hover:font-bold">
-                        Collaborations
-                      </p>
-                    </Link>
+                    
                   </div>
                 </div>
               </div>
