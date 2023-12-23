@@ -91,7 +91,9 @@ export default function Home({ ideas }: any) {
       <div className="flex flex-col gap-4 px-40 py-14">
         <div className="flex flex-row justify-between items-center">
           <h5>{`Showing ${startItem}-${endItem} of 274`}</h5>
-          
+          <div className="flex flex-row gap-3 items-center">
+            <h5>Show per page:</h5>
+            
       <div className="flex flex-row justify-between items-center px-[128px] py-[16px]">
         <p>
           Showing: {currentPage === 1 ? 1 : (currentPage - 1) * perPage + 1} -{" "}
