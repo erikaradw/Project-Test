@@ -165,7 +165,6 @@ export function Navbar() {
             <span>About</span>
           </button>
           
-          </div>
         </div>
         <div className="group relative">
           <button className=" whitespace-nowrap pb-5 pl-20 font-poppins text-xl text-white xs:pl-28 sm:pl-36 md:pl-44">
@@ -177,13 +176,7 @@ export function Navbar() {
           <button className=" whitespace-nowrap pb-5 pl-20 font-poppins text-xl text-white xs:pl-28 sm:pl-36 md:pl-44">
             <span>Ideas</span>
           </button>
-          <div className="z-10 hidden w-screen group-hover:block">
-            <div className="relative z-50 h-full w-full bg-primary shadow-lg">
-              <div className="relative z-50 flex flex-col gap-y-2 py-5 pl-20 xs:pl-28 sm:pl-36 md:pl-44">
-                
-              </div>
-            </div>
-          </div>
+          
         </div>
         <div className="group relative">
           <button className="whitespace-nowrap pb-5 pl-20 text-start font-poppins text-xl text-white xs:pl-28 sm:pl-36 md:pl-44">
